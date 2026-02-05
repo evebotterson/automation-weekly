@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://automation-weekly.vercel.app',
+	site: 'https://evebotterson.github.io',
+	base: '/automation-weekly',
 	integrations: [mdx(), sitemap()],
 });
